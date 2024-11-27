@@ -1,0 +1,69 @@
+{
+  "name": "ELS_P2P_InvoiceProcessing_SchedulerAndValidation",
+  "description": "Initiate Scheduler and Validation report",
+  "main": "Scheduler 24022023.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.8.5]",
+    "UiPath.Mail.Activities": "[1.8.5]",
+    "UiPath.MicrosoftOffice365.Activities": "1.2.1",
+    "UiPath.System.Activities": "[22.4.1]",
+    "UiPath.UIAutomation.Activities": "[22.4.4]",
+    "UiPathTeam.Excel.Extensions.Activities": "1.0.7107.42453",
+    "UiPathTeam.MSExcel.Activities": "1.0.2",
+    "UiPathTeam.XLExcel.Activities": "1.0.6814.30102"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "19.8.0.0",
+  "projectVersion": "1.1.332",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Scheduler 2500522.xaml",
+      "uniqueId": "a39acd67-6fe8-4139-b3bf-fb852a9a47e9",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Scheduler 24022023.xaml",
+      "uniqueId": "e15d80ad-492d-43e7-a5be-e025ca4280db",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}

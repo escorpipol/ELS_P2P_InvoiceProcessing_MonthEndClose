@@ -1,0 +1,64 @@
+             Ledger: ELS IDN Ledger                                                   Report Date: 31-OCT-2024 10:59
+     Operating Unit: ELS IDN Operating Unit                                                          Page:                  1
+                                                       Invoice Aging Report
+
+
+                              Report Parameters
+                             -------------------
+
+                     Sort Invoices By :   Trading Partner
+
+               Include Invoice Detail :   No
+
+                  Include Site Detail :   No
+
+                   Mininum Amount Due :
+
+                   Maximum Amount Due :
+
+                         Invoice Type :   All
+
+                      Trading Partner :   All
+
+                    Aging Period Name :   Aging Report 75-90 Days
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                 Note:  '*' indicates an invoice in foreign currency that does not
+                                                       have an exchange rate.
+             Ledger: ELS IDN Ledger                                                                  Report Date: 31-OCT-2024 10:59
+     Operating Unit: ELS IDN Operating Unit                                                                 Page:                 2
+                                                         Invoice Aging Report
+
+                                                       Amount         Overdue         Overdue         Overdue         Overdue
+Supplier Number  Trading Partner                    Remaining    till 30 days    till 60 days    till 75 days        >75 days
+-------------    ---------------------------- --------------- --------------- --------------- --------------- ---------------
+1170445           DIRECTORATE GENERAL OF          857,688.00      857,688.00            0.00            0.00            0.00
+                  TAXES MINISTRY OF FINANCE                               100%              0%              0%              0%
+                  OF INDONESIA
+215816            ELSEVIER SINGAPORE PTE LTD  172,190,648.00            0.00            0.00            0.00  172,190,648.00
+                                                                            0%              0%              0%            100%
+215816            ELSEVIER SINGAPORE PTE LTD  38624397363.21  326,740,260.00   6520316520.00   57,379,655.00  31719960928.21
+                                                                            1%             17%              0%             82%
+1195907           PT BDO KONSULTAN INDONESIA   26,677,968.00   26,677,968.00            0.00            0.00            0.00
+                                                                          100%              0%              0%              0%
+
+                                                   --------------- --------------- --------------- --------------- ---------------
+      Total for:  All Trading Partner              38824123667.21  354,275,916.00   6520316520.00   57,379,655.00  31892151576.21
+                                                                                 1%             17%              0%             82%
+                                                   =============== =============== =============== =============== ===============
+
+
+
+
+                                                       *** End of Report ***

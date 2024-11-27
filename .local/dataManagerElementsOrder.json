@@ -1,0 +1,353 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_Tracker&Flowchart_1",
+        "str_Entities&Flowchart_1",
+        "str_Unaccounted&Flowchart_1",
+        "str_ValReq&Flowchart_1",
+        "str_APTBal&Flowchart_1",
+        "str_OpenAct&Flowchart_1",
+        "str_InvAging&Flowchart_1",
+        "str_PPInvReg&Flowchart_1",
+        "str_PPPayReg&Flowchart_1",
+        "str_Unpaid&Flowchart_1",
+        "str_TBalance&Flowchart_1",
+        "DateofRun&Flowchart_1",
+        "BolOracleR12&Sequence_28",
+        "wb_Workbook&Sequence_3",
+        "str_Email&Sequence_1",
+        "str&Sequence_1",
+        "str_EntNumber&Sequence_1",
+        "str_Import&Sequence_1",
+        "str_Valid&Sequence_1",
+        "str_Create&Sequence_1",
+        "str_Trans&Sequence_1",
+        "str_Entities2&Sequence_1",
+        "Body&Sequence_15"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Username",
+        "IPPassword",
+        "in_DateofRun"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Month_End/Validate_Required.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_result&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "InStr_Entities"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Month_End/Scheduler_Invoke/Validation.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "IsReqIdExist&Sequence_2",
+        "str_ReqID&Sequence_2",
+        "RespOK&Sequence_17",
+        "Running&DoWhile_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "InStr_Entities",
+        "InStr_Entities2",
+        "OutStr_RegId"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Month_End/Scheduler_Invoke/Create_Accounting.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "IsReqIdExist&Sequence_1",
+        "str_ReqID&Sequence_1",
+        "LastDay&Sequence_1",
+        "RespOK&Sequence_17",
+        "Running&DoWhile_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "InStr_Entities",
+        "InStr_Entities2",
+        "OutStr_ReqId"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Month_End/Unaccounted.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "IsReqIdExist&Sequence_1",
+        "str_Entities&Sequence_1",
+        "str_Replace&Sequence_1",
+        "str_Email&Sequence_1",
+        "str_ReqId&Sequence_1",
+        "str_Status&DoWhile_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "InStr_Entities",
+        "DateofRun"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Month_End/Scheduler_Invoke/Importation.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "IsReqIdExist&Sequence_3",
+        "str_ReqID&Sequence_3",
+        "RespOK&Sequence_7",
+        "Running&DoWhile_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "InStr_Entities",
+        "InStr_Entities2"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Month_End/Scheduler_Invoke/TransferGL.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "IsReqIdExist&Sequence_1",
+        "str_ReqID&Sequence_2",
+        "RespOK&Sequence_2",
+        "LastDay&Sequence_2",
+        "Bol_Requests&Sequence_20",
+        "Running&DoWhile_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "InStr_Entities",
+        "InStr_Entities2",
+        "OutStr_ReqId"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Month_End/Scheduler_Invoke/APGlobalUser.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "RespOK&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Month_End/AP_TrialBalance.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_ReportName&Sequence_1",
+        "str_ReqId&Sequence_1",
+        "IsReqIdExist&Sequence_1",
+        "str_Status&DoWhile_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Instr_Entities"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Month_End/Open_AcctBalance.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_ReportName&Sequence_1",
+        "str_ReqId&Sequence_1",
+        "IsReqIdExist&Sequence_1",
+        "str_Status&DoWhile_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "InStr_Entities"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Month_End/Invoice_AgingReport.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_ReqId&Sequence_1",
+        "IsReqIdExist&Sequence_1",
+        "str_Status&DoWhile_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "InStr_Entities"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Month_End/Payables_PostedInvReg.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "IsReqIdExist&Sequence_1",
+        "str_ReqId&Sequence_1",
+        "str_Status&DoWhile_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "InStr_Entities"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Month_End/Payables_PostedPayRegister.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "IsReqIdExist&Sequence_1",
+        "str_ReqId&Sequence_4",
+        "str_Status&DoWhile_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "InStr_Entities"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Month_End/Open_APGlobal.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Month_End/Unpaid_Report.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "IsReqIdExist&Sequence_1",
+        "str_ReqId&Sequence_1",
+        "Str_Status&DoWhile_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "InStr_Entities"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Month_End/GL_TBDetail.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "IsReqIdExist&Sequence_1",
+        "Str_Replace&Sequence_1",
+        "str_Downloads&Sequence_1",
+        "str_ReqId&Sequence_1",
+        "Str_running&DoWhile_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "InStr_Entities",
+        "InStr_EntNumber"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Month_End/Email_sending.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "files&Sequence_1",
+        "Str_email&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "InStr_Entities"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Month_End/File_Upload.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "FolderYear&Sequence_1",
+        "FolderMonth&Sequence_1",
+        "FolderEntity&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "InStr_Entities"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Month_End/Scheduler_Invoke/Importation_Request_Monitor main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Email_Body_Importation&Sequence_1",
+        "Request_Pending&DoWhile_1",
+        "DtEntities&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Month_End/Scheduler_Invoke/Importation_Request_Monitor.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Email_Body_Importation&Sequence_1",
+        "Request_Pending&DoWhile_1",
+        "DtEntities&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Month_End/Scheduler_Invoke/Running_Requests.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Request_Pending&DoWhile_1",
+        "DtEntities&Sequence_5",
+        "Email_Body_Importation&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Month_End/Scheduler_Invoke/Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "NewTransaction&Flowchart_1",
+        "Import&Flowchart_1",
+        "Validation&Flowchart_1",
+        "CreateAcct&Flowchart_1",
+        "TransGL&Flowchart_1",
+        "str_Entities&Flowchart_1",
+        "str_Entities2&Flowchart_1",
+        "DTEntities&Flowchart_1",
+        "str_ReqId&Flowchart_1",
+        "Request_Queue&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "OutStr_ReqId"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}
