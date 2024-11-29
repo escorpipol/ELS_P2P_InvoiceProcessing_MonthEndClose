@@ -6556,9 +6556,9 @@
     "restore": {
       "projectUniqueName": "ELS_P2P_InvoiceProcessing_MonthEndClose",
       "projectName": "ELS_P2P_InvoiceProcessing_MonthEndClose",
-      "projectPath": "C:\\Users\\escorpip\\Downloads\\24. Month End Close 1\\24. Month End Close\\.local",
+      "projectPath": "C:\\Users\\escorpip\\ELS_P2P_InvoiceProcessing_MonthEndClose\\.local",
       "packagesPath": "C:\\Users\\escorpip\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\escorpip\\Downloads\\24. Month End Close 1\\24. Month End Close\\.local"
+      "outputPath": "C:\\Users\\escorpip\\ELS_P2P_InvoiceProcessing_MonthEndClose\\.local"
     },
     "frameworks": {
       "net461": {

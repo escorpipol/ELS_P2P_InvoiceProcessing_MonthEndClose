@@ -5,7 +5,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1526,7136.66666666667</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1526,7163.33333333333</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Open_AcctBalance_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="46">
@@ -65,9 +65,10 @@
       <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
       <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
       <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Open_AcctBalance" sap:VirtualizedContainerService.HintSize="1536,7072" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Open_AcctBalance" sap:VirtualizedContainerService.HintSize="1536,7098.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="str_ReportName" />
       <Variable x:TypeArguments="x:String" Name="str_ReqId" />
@@ -622,7 +623,7 @@
         </Sequence>
       </ui:CommentOut.Body>
     </ui:CommentOut>
-    <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" AlterIfDisabled="True" DisplayName="Type Into 'Edit'" EmptyField="True" sap:VirtualizedContainerService.HintSize="1474,135.333333333333" sap2010:WorkflowViewState.IdRef="TypeInto_6" Text="[&quot;Month_End\Reports\ELS &quot;+Instr_Entities+&quot; Operating Unit\ELS &quot;+Instr_Entities+&quot; Open Acct Balance Segment.xls&quot;]">
+    <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" AlterIfDisabled="True" DisplayName="Type Into 'Edit'" EmptyField="True" sap:VirtualizedContainerService.HintSize="1474,135.333333333333" sap2010:WorkflowViewState.IdRef="TypeInto_6" Text="[path.Combine(Environment.CurrentDirectory,&quot;Month_End\Reports\ELS &quot;+Instr_Entities+&quot; Operating Unit\ELS &quot;+Instr_Entities+&quot; Open Acct Balance Segment.xls&quot;)]">
       <ui:TypeInto.Target>
         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="0f05d462-b9db-47da-8ae2-b8bcf927e6ab" InformativeScreenshot="41c7b5465be424f5cbcc02935838fd02" Selector="&lt;wnd omit:app='iexplore.exe' cls='#32770' title='Save As' /&gt;&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd aaname='File name:' cls='ComboBox' /&gt;&lt;wnd ctrlid='1001' /&gt;">
           <ui:Target.TimeoutMS>
@@ -656,16 +657,16 @@
         </ui:Target>
       </ui:Click.Target>
     </ui:Click>
-    <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="1471,22" sap2010:WorkflowViewState.IdRef="Delay_2" />
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1471,324" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+    <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="1474,25.3333333333333" sap2010:WorkflowViewState.IdRef="Delay_2" />
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1474,347.333333333333" sap2010:WorkflowViewState.IdRef="CommentOut_2">
       <ui:CommentOut.Body>
-        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="376,246" sap2010:WorkflowViewState.IdRef="Sequence_5">
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,267.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_5">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey 'iexplore.exe View'" sap:VirtualizedContainerService.HintSize="334,154" sap2010:WorkflowViewState.IdRef="SendHotkey_7" Key="f4" KeyModifiers="Alt" SpecialKey="True">
+          <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey 'iexplore.exe View'" sap:VirtualizedContainerService.HintSize="388,156.666666666667" sap2010:WorkflowViewState.IdRef="SendHotkey_7" Key="f4" KeyModifiers="Alt" SpecialKey="True">
             <ui:SendHotkey.Target>
               <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="65d2c44f-099b-4924-816b-53030070eb34" InformativeScreenshot="09f6b5080fc46abc9939d996ac56d3a6" Selector="&lt;wnd app='iexplore.exe' cls='#32770' title='View Downloads - Internet Explorer' /&gt;">
                 <ui:Target.TimeoutMS>
