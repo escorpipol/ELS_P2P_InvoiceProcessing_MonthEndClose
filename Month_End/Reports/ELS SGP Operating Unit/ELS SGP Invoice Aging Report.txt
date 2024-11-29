@@ -1,0 +1,174 @@
+             Ledger: ELS SGP Ledger                                                   Report Date: 29-NOV-2024 11:42
+     Operating Unit: ELS SGP Operating Unit                                                          Page:                  1
+                                                       Invoice Aging Report
+
+
+                              Report Parameters
+                             -------------------
+
+                     Sort Invoices By :   Trading Partner
+
+               Include Invoice Detail :   No
+
+                  Include Site Detail :   No
+
+                   Mininum Amount Due :
+
+                   Maximum Amount Due :
+
+                         Invoice Type :   All
+
+                      Trading Partner :   All
+
+                    Aging Period Name :   Aging Report 75-90 Days
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                 Note:  '*' indicates an invoice in foreign currency that does not
+                                                       have an exchange rate.
+             Ledger: ELS SGP Ledger                                                                  Report Date: 29-NOV-2024 11:42
+     Operating Unit: ELS SGP Operating Unit                                                                 Page:                 2
+                                                         Invoice Aging Report
+
+                                                       Amount         Overdue         Overdue         Overdue         Overdue
+Supplier Number  Trading Partner                    Remaining    till 30 days    till 60 days    till 75 days        >75 days
+-------------    ---------------------------- --------------- --------------- --------------- --------------- ---------------
+1096946           ABOVE THE LINE                    2,168.39        2,168.39            0.00            0.00            0.00
+                                                                          100%              0%              0%              0%
+1055806           AEX LOGISTICS SDN BHD             7,976.73        7,976.73            0.00            0.00            0.00
+                                                                          100%              0%              0%              0%
+1145880           Ang, Benny                          877.03          877.03            0.00            0.00            0.00
+                                                                          100%              0%              0%              0%
+255255            ATLAS VENDING SOLUTIONS PTE         271.63          271.63            0.00            0.00            0.00
+                  LTD                                                     100%              0%              0%              0%
+1196399           BACKGROUND SCREENING              3,130.05        3,130.05            0.00            0.00            0.00
+                  (HIRERIGHT) SINGAPORE PTE                               100%              0%              0%              0%
+                  LTD
+IC_803            CHENNAI OPS-A DIV OF RELX       478,460.84      478,460.84            0.00            0.00            0.00
+                  IND PL                                                  100%              0%              0%              0%
+1087573           CLARION EVENTS PTE LTD            4,322.94        4,322.94            0.00            0.00            0.00
+                                                                          100%              0%              0%              0%
+204335            COMMISSIONER OF INLAND               85.89            0.00            0.00            0.00           85.89
+                  REVENUE                                                   0%              0%              0%            100%
+204335            COMMISSIONER OF INLAND              128.76          128.76            0.00            0.00            0.00
+                  REVENUE                                                 100%              0%              0%              0%
+1114219           COMPUNNEL SOFTWARE GROUP          3,198.48        3,198.48            0.00            0.00            0.00
+                  INC                                                     100%              0%              0%              0%
+213591            CROWN WORLDWIDE PTE LTD             715.50            0.00          715.50            0.00            0.00
+                                                                            0%            100%              0%              0%
+306755            CV.TAMAPRINTINDOUTAMA            13,556.21       13,556.21            0.00            0.00            0.00
+                                                                          100%              0%              0%              0%
+126707            DHL EXPRESS (SINGAPORE) PTE         596.84          596.84            0.00            0.00            0.00
+                  LTD                                                     100%              0%              0%              0%
+226212            EATZ CATERING SERVICES PTE        2,675.58        2,675.58            0.00            0.00            0.00
+                  LTD                                                     100%              0%              0%              0%
+126720            EAZI PRINTING PTE LTD               119.90          119.90            0.00            0.00            0.00
+                                                                          100%              0%              0%              0%
+1035407           ED CONNECT SDN. BHD.              2,431.79        2,431.79            0.00            0.00            0.00
+                                                                          100%              0%              0%              0%
+IC_771            Els Beij REIT CHN Div of      2,295,022.73    2,295,022.73            0.00            0.00            0.00
+                  Reed Elsevier Information                               100%              0%              0%              0%
+                  Technology Beijing Co Ltd
+IC_121            Elsevier BV                      19,385.43       19,385.43            0.00            0.00            0.00
+                                                                          100%              0%              0%              0%
+IC_101            Elsevier LTD                   (120,278.84)    (120,278.84)           0.00            0.00            0.00
+                                                                          100%              0%              0%              0%
+1148735           EQUINIX SINGAPORE PTE LTD        22,594.57       22,594.57            0.00            0.00            0.00
+                                                                          100%              0%              0%              0%
+1256425           FOODXERVICES INC PTE LTD            673.62          673.62            0.00            0.00            0.00
+                                                                          100%              0%              0%              0%
+1049458           GSK CONSTRUCTION &                4,774.20        4,774.20            0.00            0.00            0.00
+                  ENGINEERING PTE LTD                                     100%              0%              0%              0%
+176644            HAWORTH SINGAPORE PTE LTD           752.10          752.10            0.00            0.00            0.00
+                                                                          100%              0%              0%              0%
+1252023           HI-THINK DALIAN SOFTWARE         22,240.78       22,240.78            0.00            0.00            0.00
+                  SERVICE CORP                                            100%              0%              0%              0%
+49083             IMPELSYS INC                      7,675.03        7,675.03            0.00            0.00            0.00
+                                                                          100%              0%              0%              0%
+1178332           IRON MOUNTAIN SINGAPORE PTE       1,548.16        1,548.16            0.00            0.00            0.00
+                  LTD                                                     100%              0%              0%              0%
+127958            JOHN T SCOTT CO INC               3,488.61        3,488.61            0.00            0.00            0.00
+                                                                          100%              0%              0%              0%
+127958            JOHN T SCOTT CO INC              12,335.46       12,688.03         (352.57)           0.00            0.00
+                                                                          103%             -3%              0%              0%
+126745            KCK CORPSERVE PTE LTD             2,193.08        2,193.08            0.00            0.00            0.00
+             Ledger: ELS SGP Ledger                                                                  Report Date: 29-NOV-2024 11:42
+     Operating Unit: ELS SGP Operating Unit                                                                 Page:                 3
+                                                         Invoice Aging Report
+
+                                                       Amount         Overdue         Overdue         Overdue         Overdue
+Supplier Number  Trading Partner                    Remaining    till 30 days    till 60 days    till 75 days        >75 days
+-------------    ---------------------------- --------------- --------------- --------------- --------------- ---------------
+126745            KCK CORPSERVE PTE LTD                                   100               0               0               0
+                                                                             %               %               %               %
+1014182           KHL PRINTING CO PTE LTD             327.00          327.00            0.00            0.00            0.00
+                                                                          100%              0%              0%              0%
+127250            KUMPULAN DEVELOPMENT (S)          1,028.09        1,028.09            0.00            0.00            0.00
+                  PTE LTD                                                 100%              0%              0%              0%
+1066669           LYRECO (SINGAPORE) PTE LTD        2,395.60        2,395.60            0.00            0.00            0.00
+                                                                          100%              0%              0%              0%
+1177581           MAN POWER BD                      1,938.05        1,938.05            0.00            0.00            0.00
+                                                                          100%              0%              0%              0%
+1260766           MINMED GROUP PTE LTD                218.00          218.00            0.00            0.00            0.00
+                                                                          100%              0%              0%              0%
+1232171           NEWSTRANS                            96.23           96.23            0.00            0.00            0.00
+                                                                          100%              0%              0%              0%
+1163870           O2PLANTS PTE LTD                  1,460.38        1,460.38            0.00            0.00            0.00
+                                                                          100%              0%              0%              0%
+244316            P&A GRANT THORNTON                  568.56          568.56            0.00            0.00            0.00
+                  OUTSOURCING INC                                         100%              0%              0%              0%
+244316            P&A GRANT THORNTON                  761.71          761.71            0.00            0.00            0.00
+                  OUTSOURCING INC                                         100%              0%              0%              0%
+308890            PACCON                            3,966.24        3,966.24            0.00            0.00            0.00
+                                                                          100%              0%              0%              0%
+1266816           PARTYMOJO PTE LTD                 1,155.40        1,155.40            0.00            0.00            0.00
+                                                                          100%              0%              0%              0%
+1274073           PERKUMPULAN AHLI ANATOMI          2,876.50            0.00        2,876.50            0.00            0.00
+                  INDONESIA                                                 0%            100%              0%              0%
+1212440           PT RELX INFORMATION             (57,395.34)     (57,395.34)           0.00            0.00            0.00
+                  ANALYTICS                                               100%              0%              0%              0%
+1039502           PUSTAKA PRINSIP SDN BHD             603.79          603.79            0.00            0.00            0.00
+                                                                          100%              0%              0%              0%
+1263781           REED ELSEVIER INFORMATION        13,424.25       13,424.25            0.00            0.00            0.00
+                  TECHNOLOGY BEIJING CO LTD                               100%              0%              0%              0%
+                  SHENZHEN BRANCH
+1088428           SCIENTEC CONSULTING PTE LTD       7,451.75        7,451.75            0.00            0.00            0.00
+                                                                          100%              0%              0%              0%
+128619            SECURIKARD PTE LTD                  112.00          112.00            0.00            0.00            0.00
+                                                                          100%              0%              0%              0%
+1176342           SHI SINGAPORE SOLUTIONS PTE      14,020.74       14,020.74            0.00            0.00            0.00
+                  LTD                                                     100%              0%              0%              0%
+1234017           TAY CHOON HENG FRUITS             2,445.00        2,445.00            0.00            0.00            0.00
+                  SUPPLY                                                  100%              0%              0%              0%
+181667            TRICOR CNP CORPORATE              2,404.00        2,404.00            0.00            0.00            0.00
+                  SERVICES PTE LTD                                        100%              0%              0%              0%
+1246384           TRIFECTA CONSULTANCY              1,368.87        1,368.87            0.00            0.00            0.00
+                                                                          100%              0%              0%              0%
+127076            WINSLAND INVESTMENT PTE LTD          63.85            0.00           63.85            0.00            0.00
+                                                                            0%            100%              0%              0%
+308479            YFE-CLARK EXPRESS PTE LTD         4,828.59        4,828.59            0.00            0.00            0.00
+                                                                          100%              0%              0%              0%
+
+                                                   --------------- --------------- --------------- --------------- ---------------
+      Total for:  All Trading Partner                2,799,240.75    2,795,851.58        3,303.28            0.00           85.89
+                                                                               100%              0%              0%              0%
+                                                   =============== =============== =============== =============== ===============
+             Ledger: ELS SGP Ledger                                                                  Report Date: 29-NOV-2024 11:42
+     Operating Unit: ELS SGP Operating Unit                                                                 Page:                 4
+                                                         Invoice Aging Report
+
+
+
+
+
+                                                       *** End of Report ***
